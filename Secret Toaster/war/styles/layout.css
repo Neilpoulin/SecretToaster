@@ -1,0 +1,33 @@
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+.clearRight{
+	clear: right;
+}
+.clearLeft{
+	clear: left;
+}
+.clearBoth{
+	clear: both;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.relative_pos{
+	position: relative;
+}
+.absolute_pos{
+	position: absolute;
+}
+
+.borderBox{
+	box-sizing:border-box;
+}
+
+.hidden{
+	display: none !important;
+}
+

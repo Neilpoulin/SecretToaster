@@ -1,0 +1,33 @@
+.border.solid{
+	border-style: solid;
+}
+.border.dashed{
+	border-style: dashed;
+}
+
+
+.border.black{
+	border-color: black;
+}
+.border.red {
+	border-color: red;
+}
+ 
+.border.blue{
+	border-color: blue;
+}
+.border.green{
+	border-color: green;
+}
+ 
+ 
+.border.border1px {
+	border-width: 1px;
+}
+.border.border2px{
+	border-width: 2px;
+}
+
+.radius10{
+	border-radius: 10px;
+}

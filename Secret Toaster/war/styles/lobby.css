@@ -1,0 +1,200 @@
+body{
+	font-size: 150%;
+	background: url(/data/backgrounds/gray-paper2.png);
+}
+
+#searchDIV {
+	position: relative;
+	
+	border: 3px solid grey; 
+	border-radius: 20px;
+	width: 60%;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 10 50 10;
+	box-shadow: 5px 10px 15px grey;	
+	color: #000;
+	background: url(/data/backgrounds/silver_alum.gif);
+	text-shadow: 0px 1px 1px #fff;
+}
+
+label{
+	display: inline-block;
+	height: 1em;
+	margin-bottom: 0.25em;
+	margin-top: 0.2em;
+	width: 5em;
+	text-align: left;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+#searchDIV h2{
+	padding: 0 0 10px 0;
+}
+
+h1, h2, h3, h4, p{
+	padding: 0;
+	margin: 0;
+}
+
+#about{
+	margin: 1.5em;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+
+span.colorBlock{
+	width: 1em;
+	height: 1em;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0 10px -5px 0; 
+}
+
+#colors{
+	position: absolute;
+	display: none;
+	background: white;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	border-top: 0px;
+	font-size: 1em;
+	list-style: none;
+	box-shadow: 5px 10px 15px 0px grey;
+	overflow: auto !important;
+	bottom: 20px;
+	max-height: 400;
+}
+
+#colors li{
+	padding: .2em 1em .2em 1em;
+	box-sizing: border-box;
+}
+
+#colors li:hover{
+	border: 1px dashed grey;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	background: lightyellow;
+	cursor: pointer;
+}
+
+#selectedColor{
+	background: white;
+	padding: .1em 0 .1em 1em;
+	cursor: pointer;
+	text-align: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+#selectedColor:hover{
+	background: lightgrey;	
+}
+
+input, select, #selectedColor, #colors{
+	font-size: inherit;
+	display: inline-block;
+	width: 10em;
+}
+#inputs{
+	display: inline:block;
+	text-align: left;
+	margin-bottom: 10px;
+	position: relative;
+}
+#labels{
+	text-align: right;
+	float: left;
+}
+#info{
+	display: inline-block;
+}
+
+#joinGame, #searchGame, #createGame{
+	padding: 10 20 10 20;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 20px;
+}
+#notice{
+	color: red;
+	max-width: 100%;
+}
+
+span.tip{
+	color: red;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	
+}
+span.tip.severe{
+	color: red;	
+}
+span.tip.warn{
+	color: orange;
+}
+
+button span{
+	padding: 0 !important;
+}
+
+#header{
+	border-radius: 10px;
+	background-image: linear-gradient(top, #FFFF12 0%, #E6DA3E 100%);
+	padding: 10px;
+	text-shadow: 0 1px 0 #fff;
+	text-align: center;
+}
+
+#about{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about p{
+	margin-bottom: 1em;
+	font-size: .8em;
+}
+
+#about p:first-of-type{
+	font-size: 1em;
+}
+
+span.alert{
+	color: red;
+	font-weight: bold;
+}
+
+#recentGames{
+	display: inline-block;
+}
+
+#recentGames li a{
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding: 1px 5px 1px 5px;
+}
+#recentGames li:hover{
+	
+}
+#recentGames a:hover{
+	/*text-decoration: underline;*/
+	border: 2px solid black;	
+	margin: -2px;
+	border-radius: 5px;
+}
